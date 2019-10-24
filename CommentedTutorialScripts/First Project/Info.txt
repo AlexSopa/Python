@@ -1,0 +1,2 @@
+Website Used : https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/
+Environment Used : TensorFlow backend using Keras for model creation / testing
