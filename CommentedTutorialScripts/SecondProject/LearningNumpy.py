@@ -19,5 +19,19 @@ print(('Arrays are just this much better >> {}').format(arraysRbetter))
 #type(five_num)
 #five_num should now be = to the 5 numbers they gave or whatever else they typed in
 #More types of arrays you can make
-a2 = np.ones( (2,3,4), dtype=np.int16)
+a2 = np.ones( (5,3,8), dtype=np.int16)
 print(a2)
+
+a = np.array([(1,2,3)])
+#You can find datatypes of an array
+print(a.dtype)
+
+#You can reshape array data
+a = np.array([(8,9,10),(11,12,13)])
+
+print(a)
+#Reshapes it into a 3x2 array
+a=a.reshape(3,2)
+
+print(a)
+
